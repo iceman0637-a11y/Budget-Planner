@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #a0caab;
+    background-color: #97d8a8;
     margin: 0;
     padding: 20px;
 }
@@ -14,7 +14,7 @@ body {
     max-width: 350px;
     margin: 30px auto;
     padding: 20px;
-    background-color: white;
+    background-color: rgb(233, 255, 234);
     border-radius: 18px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
     text-align: center;
@@ -47,7 +47,54 @@ body {
     background-color: #59ba81;
 }
 
-#result {
-    margin-top: 15px;
-    font-weight: bold;
+.results {
+    display: flex;
+    gap : 55px;
+    justify-content: center;
+
+}
+
+#needs-res {
+    flex: 1;
+    margin:30px auto;
+    padding: 20px;
+    background-color: rgb(233, 255, 234);
+    border-radius: 18px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+#wants-res {
+    flex: 1;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: rgb(233, 255, 234);
+    border-radius: 18px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+#savings-res {
+    flex: 1;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: rgb(233, 255, 234);
+    border-radius: 18px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+.list {
+    text-align: left;
+}
+
+.epilogue {
+    color: #2c3e50;
+}
+
+#img{
+    display : block;
+    width: 60%;
+    margin-left: 20%;
+    
+
 }

@@ -17,11 +17,59 @@
             <input id="paycheck" type="number" placeholder="Your Paycheck">
             <button id="calculate">Calculate</button>
         </div>
-        <div class="results">  
-            <p>Needs: <span id="needs">0</span>$</p>
-            <p>Wants: <span id="wants">0</span>$</p>
-            <p>Savings: <span id="savings">0</span>$</p>
+        <div class="results"> 
+
+            <div id="needs-res">
+            <h4>Needs: <span id="needs">0</span>$</h4>
+            <p>The "Needs" money are meant to be used on:</p>
+            <div class="list">
+            <ul>
+                <li>Housing</li>
+                <li>Groceries</li>
+                <li>Transport</li>
+                <li>Healthcare</li>
+                <li>Other bills</li>
+            </ul>
+            </div>
+            </div>
+
+            <div id="wants-res">
+            <h4>Wants: <span id="wants">0</span>$</h4>
+            <p>The "Wants" money are meant to be used on:</p>
+            <div class="list">
+            <ul>
+                <li>Dinning out</li>
+                <li>Shopping</li>
+                <li>Travelling</li>
+                <li>Drinks</li>
+                <li>Other entertainment</li>
+            </ul>
+            </div>
+            </div>
+
+
+            <div id="savings-res">
+            <h4>Savings: <span id="savings">0</span>$</h4>
+            <p>The "Savings" money are meant to be used on:</p>
+            <div class="list">
+            <ul>
+                <li>Buying something expensive you wanted</li>
+                <li>Emergencies</li>
+                <li>Debt payment</li>
+                <li>Retirement</li>
+                <li>Investing</li>
+                
+            </ul>
+            </div>
         </div>
+        </div>
+
+        <div class="epilogue">
+            <p>This budget planning website uses the 50/30/20 rule. This means that the 50% of your income goes to "needs",
+            the 30% goes to "wants" and the 20% on "savings" </p>
+            <img id="img" src="images/50-30-20-Budgeting-Rule-Infographic.png">
+        </div>
+
         <script src="script.js"></script>
     </body>
 </html>
